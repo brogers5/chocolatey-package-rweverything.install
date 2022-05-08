@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>rweverything.install</id>
-    <version>1.7</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-rweverything.install/tree/v1.7</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>RWEverything (Install)</title>
-    <authors>Jeff Chan</authors>
-    <projectUrl>http://rweverything.com/</projectUrl>
-    <licenseUrl>http://rweverything.com/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-rweverything.install@0a3847839fad160f2403e1aa683f040120b6b9c2/rweverything.install.png</iconUrl>
-    <copyright>Copyright (c) 2003 Jeff Chan</copyright>
-    <tags>rweverything pci memory io sio dimm smbus msr ata atapi acpi usb smbios edid</tags>
-    <summary>Read &amp; Write Everything</summary>
-    <description><![CDATA[
+
 ---
 ### [choco://rweverything.install](choco://rweverything.install)
 To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
@@ -44,10 +27,3 @@ For future upgrade operations, consider opting into Chocolatey's `useRememberedA
 ```
 choco feature enable -n=useRememberedArgumentsForUpgrades
 ```
-]]></description>
-    <releaseNotes>http://rweverything.com/changelog/</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
