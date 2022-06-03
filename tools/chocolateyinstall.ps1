@@ -18,7 +18,7 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-if ((Get-OSArchitectureWidth -eq 64) -and ($env:chocolateyForceX86 -ne $true))
+if ((Get-OSArchitectureWidth -Compare 64) -and ($env:chocolateyForceX86 -ne $true))
 {
   $extractedDirectory = "Win64"
   $fileName = "SetupRwX64.exe"
