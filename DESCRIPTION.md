@@ -24,6 +24,7 @@ Installer-specific details (e.g. Setup configuration and supported Languages, Co
 * [64-bit installer](https://github.com/brogers5/chocolatey-package-rweverything.install/tree/v1.7.0.20220602/install_script_x64.iss)
 
 For future upgrade operations, consider opting into Chocolatey's `useRememberedArgumentsForUpgrades` feature to avoid having to pass the same arguments with each upgrade:
-```
-choco feature enable --name=useRememberedArgumentsForUpgrades
+
+```shell
+choco feature enable --name="'useRememberedArgumentsForUpgrades'"
 ```
